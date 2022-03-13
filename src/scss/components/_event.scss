@@ -1,0 +1,40 @@
+.event {
+  &__wrapper {
+    text-align: center;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+  }
+
+  &__link {
+    background: #1D4169;
+    border-radius: 40px;
+    color: #fff;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    padding-left: 28px;
+    padding-right: 72px;
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  &__link::after {
+    content: '';
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url(../img/arrow.svg);
+    position: absolute;
+    margin-left: 30px;
+    top: 19px;
+  }
+}

@@ -1,6 +1,7 @@
 .event {
   &__wrapper {
     text-align: center;
+    margin-bottom: 35px;
   }
 
   &__text {
@@ -37,4 +38,12 @@
     margin-left: 30px;
     top: 19px;
   }
+}
+
+@media screen and (max-width: 768px) {
+
+  .event__text {
+    font-size: 16px;
+  }
+
 }

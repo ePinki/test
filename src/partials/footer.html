@@ -2,18 +2,21 @@
   <div class="container">
 
     <div class="form__wrapper">
-      <form id="ajax_form" class="form">
+      <form class="form" id="myForm" action="send.php class="form">
         <label class="form__label">
-          <input class="input input-mail" type="email" data-validate-field="email" name="Email"
+          <input class="input input-mail" required type="email" data-validate-field="email" name="email"
             placeholder="Enter your Email and get notified">
         </label>
+        
+        <button class="form__button" id="btn" type="submit">
+          <div class="form__arrow">
+            <img src="img/arrow.svg" alt="Указатель">
+          </div>
+        </button>
+
       </form>
 
-      <button class="form__button" id="btn">
-        <div class="form__arrow">
-          <img src="img/arrow.svg" alt="Указатель">
-        </div>
-      </button>
+      
     </div>
 
   </div>

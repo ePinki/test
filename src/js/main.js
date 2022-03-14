@@ -4,4 +4,3 @@ import './_functions';
 import './_components';
 import './_timer';
 import './_email';
-import './_ajaix';
